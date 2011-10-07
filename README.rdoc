@@ -29,7 +29,6 @@ examples/:: Examples directory
 
 ==== skeleton development
 
-FIXME: text to contribue
 README_DEV.rdoc:: Information for developers that want to contribute to the project, including coding styles and documentation guidelines.
 
 === websites
@@ -59,7 +58,7 @@ and can be obtained by the following procedure:
 
 === INSTALL by using RubyGems (recommended)
 
-FIXME
+gem install skeleton
 
 === INSTALL without RubyGems
 

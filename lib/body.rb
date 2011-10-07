@@ -28,6 +28,7 @@ module Body
       puts "Swining with speed #{speed}"
       return speed
     end
+
   end
 
 end

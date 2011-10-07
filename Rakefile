@@ -18,8 +18,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "body"
   gem.homepage = "http://github.com/tilljoel/body"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{testgem skeleton}
+  gem.description = %Q{longer description of your gem}
   gem.email = "tilljoel@gmail.com"
   gem.authors = ["Joel Larsson"]
   gem.version = Body::Version::STRING
