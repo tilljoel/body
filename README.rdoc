@@ -1,19 +1,96 @@
-= body
+--
+= README.rdoc - README for skeleton
+Copyright:: Copyright (C) 2011 Sebastian Wallin, Johan Brissmyr, Johan Gyllenspetz, Joel Larsson <contact@popdevelop.com>
+License::   The Ruby License
+* The above statement is limited to this file. See below about Skeleton's
+  copyright and license.
+++
 
-Description goes here.
+= Skeleton
 
-== Contributing to body
- 
-* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
-* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
-* Fork the project
-* Start a feature/bugfix branch
-* Commit and push until you are happy with your contribution
-* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+Copyright (C) 2011 Sebastian Wallin, Johan Brissmyr, Johan Gyllenspetz, Joel Larsson <contact@popdevelop.com>
 
-== Copyright
+Skeleton is an open source Ruby library for developing...
 
-Copyright (c) 2011 Joel Larsson. See LICENSE.txt for
-further details.
+== FOR MORE INFORMATION
 
+=== Documents in this distribution
+
+==== General information
+
+README.rdoc:: This file. General information and installation procedure.
+RELEASE_NOTES.rdoc:: News and important changes in this release.
+
+Issues are tracked on github at http://github.com/popdevelop/skeleton
+
+==== Tutorials, Examples and other useful information
+
+examples/:: Examples directory
+
+==== skeleton development
+
+FIXME: text to contribue
+README_DEV.rdoc:: Information for developers that want to contribute to the project, including coding styles and documentation guidelines.
+
+=== websites
+
+Authors website, day to day blog posts from our team
+* http://popdevelop.com
+
+Github, here you will find links to related resources including downloads, issue tracking, documentation etc.
+* http://github.com/popdevelop
+
+=== git
+
+If you need the latest development version, this is provided at
+
+* http://github.com/popdevelop/skeleton
+
+and can be obtained by the following procedure:
+
+  % git clone git://github.com/podevelop/skeleton.git
+
+== REQUIREMENTS
+
+* Ruby 1.8.6 or later (except Ruby 1.9.0) -- http://www.ruby-lang.org/
+  * Ruby 1.8.7-p352 or later is recommended.
+
+== INSTALL
+
+=== INSTALL by using RubyGems (recommended)
+
+FIXME
+
+=== INSTALL without RubyGems
+
+== USAGE
+
+You can load all skeleton classes just by requiring 'skeleton.rb'.  All the
+skeleton classes and modules are located under the module name 'skeleton' to
+separate the name space.
+
+  #!/usr/bin/env ruby
+  require 'skeleton'
+
+You can also read other documentation in the 'doc' directory.
+
+  doc/
+
+=== RubyGems on Ruby 1.8.x
+
+With RubyGems on Ruby 1.8.x, you may need to load 'rubygems' library before
+using 'skeleton'. This may not be needed, depending on settings of Ruby.
+
+  #!/usr/bin/env ruby
+  require 'rubygems'
+  require 'skeleton'
+
+== LICENSE
+
+skeleton can be freely distributed under the same terms as Ruby.
+See the file COPYING.
+
+== CONTACT
+
+Current staff of the skeleton project can be reached by sending e-mail
+to <contact@popdevelop.com>.

@@ -1,0 +1,26 @@
+= skeleton x.x.x RELEASE NOTES
+
+Copyright:: Copyright (C) 2011 Sebastian Wallin, Johan Brissmyr, Johan Gyllenspetz, Joel Larsson <contact@popdevelop.com>
+License::   The Ruby License
+
+== New features
+
+=== New classes skeleton::fixme::fixme
+
+=== New classes skeleton::fixme::fixme
+
+== Bug fixes
+
+=== skeleton:fixme
+
+* First release, no bug fixes
+
+== Incompatible changes
+
+=== skeleton:fixme
+
+* First release, everything is compatible
+
+== Known issues
+
+Know issues are added and updated in the file KNOWN_ISSUES.rdoc::

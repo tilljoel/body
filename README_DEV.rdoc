@@ -1,0 +1,60 @@
+= README.DEV
+
+Copyright (C) 2011 Sebastian Wallin, Johan Brissmyr, Johan Gyllenspetz, Joel Larsson <contact@popdevelop.com>
+
+= HOW TO CONTRIBUTE TO THE skeleton PROJECT?
+
+There are many possible ways to contribute to the skeleton project,
+such as:
+
+* Send a bug report or write a bug fix patch
+* Add and correct documentation
+* Develop code for new features, etc.
+
+All of these are welcome!  However, this document describes the last option,
+how to contribute your code to the skeleton distribution.
+
+== Git
+
+skeleton is now under git source control at http://github.com/popdevelop/skeleton.
+There are two basic ways to contribute: with patches or pull requests.
+
+= CODING STYLE
+
+Please follow these guidelines, http://www.caliban.org/ruby/rubyguide.shtml#style
+
+== Indentation must not include evil tabs
+
+* Use 2 spaces for indentation.
+
+== Documentation should be written in the RDoc format in the source code
+
+The RDoc format is becoming the popular standard for Ruby documentation.
+
+Additional tutorial documentation and working examples are encouraged
+with your contribution. You may use the header part of the file for
+this purpose as demonstrated in the previous section.
+
+== Standard documentation
+
+Each file should start with a header, which covers the following topics:
+* copyright
+* license
+* description of the file (_not_ the classes; see below)
+* any references, if appropriate
+
+== Testing code should use 'test/unit'
+
+Unit tests should come with your modules by which you can assure what
+you meant to do with each method. The test code is useful to make
+maintenance easy and ensure stability.
+
+= NAMESPACE
+
+Your module should be located under the top-level module skeleton and put under
+the 'skeleton/lib/skeleton' directory.  The class/module names and the
+file names should be short and descriptive.
+
+= MAINTENANCE
+
+Finally, please maintain the code you've contributed.
